@@ -33,7 +33,7 @@
 
     <nav class="nav" aria-label="Main navigation">
       <a href="#services" data-i18n="navServices">Services</a>
-      <a href="#work" data-i18n="navWork">Work</a>
+      <a href="#work" data-i18n="navWork">Soluções</a>
       <a href="#process" data-i18n="navProcess">Process</a>
       <a href="#contact" data-i18n="navContact">Contact</a>
     </nav>
@@ -71,7 +71,7 @@
 
         <div class="hero-actions">
           <a class="btn btn-primary" href="#contact" data-i18n="heroCta">Tell me about your project</a>
-          <a class="btn btn-secondary" href="#work" data-i18n="heroSecondary">View selected work</a>
+          <a class="btn btn-secondary" href="#work" data-i18n="heroSecondary">Explorar possibilidades</a>
         </div>
 
         <div class="global-line">
@@ -85,7 +85,7 @@
         <div class="product-window">
           <div class="window-bar">
             <span class="window-dots"><i></i><i></i><i></i></span>
-            <span class="window-url">anthonyribeiro.dev / build</span>
+            <span class="window-url">UI CONCEPT · WORKSPACE</span>
           </div>
           <div class="product-shell">
             <aside class="product-sidebar">
@@ -95,15 +95,15 @@
             <div class="product-main">
               <div class="product-top">
                 <div><small data-i18n="mockWorkspace">BUSINESS WORKSPACE</small><strong data-i18n="mockTitle">Operations overview</strong></div>
-                <span class="live"><i></i> LIVE</span>
+                <span class="live" data-i18n="mockLabel">CONCEPT</span>
               </div>
               <div class="metric-grid">
-                <article><small data-i18n="mockClients">Clients</small><strong>248</strong><em>+18%</em></article>
-                <article><small data-i18n="mockAutomations">Automations</small><strong>1.8k</strong><em>99.9%</em></article>
-                <article><small data-i18n="mockSaved">Hours saved</small><strong>126h</strong><em>+32%</em></article>
+                <article><small data-i18n="mockClients">Clients</small><strong>CRM</strong><em>● ● ●</em></article>
+                <article><small data-i18n="mockAutomations">Automations</small><strong>API</strong><em>● ● ●</em></article>
+                <article><small data-i18n="mockSaved">Hours saved</small><strong>BI</strong><em>● ● ●</em></article>
               </div>
               <div class="chart-card">
-                <div class="chart-head"><span data-i18n="mockPerformance">Performance</span><small data-i18n="mockLastMonths">Last 6 months</small></div>
+                <div class="chart-head"><span data-i18n="mockPerformance">Performance</span><small data-i18n="mockLastMonths">Concept preview</small></div>
                 <div class="chart-bars"><i style="height:32%"></i><i style="height:46%"></i><i style="height:41%"></i><i style="height:61%"></i><i style="height:70%"></i><i style="height:88%"></i><i style="height:96%"></i></div>
               </div>
               <div class="activity-card">
@@ -116,7 +116,7 @@
         </div>
 
         <div class="float-card float-a"><span>⚡</span><div><small data-i18n="floatAutomation">Automation</small><strong data-i18n="floatRunning">Running</strong></div></div>
-        <div class="float-card float-b"><span>✓</span><div><small data-i18n="floatDeploy">Deployment</small><strong>Production</strong></div></div>
+        <div class="float-card float-b"><span>✓</span><div><small data-i18n="floatDeploy">Deployment</small><strong data-i18n="mockDeployStatus">Ready</strong></div></div>
       </div>
     </section>
 
@@ -172,69 +172,114 @@
     <section class="section work section-reveal" id="work">
       <div class="section-heading split-heading">
         <div>
-          <p class="eyebrow" data-i18n="workEyebrow">SELECTED WORK</p>
-          <h2 data-i18n="workTitle">Real products. Real operations.</h2>
+          <p class="eyebrow" data-i18n="workEyebrow">POSSIBILIDADES</p>
+          <h2 data-i18n="workTitle">Ideias que podem virar a solução da sua empresa.</h2>
         </div>
-        <p data-i18n="workText">A selection of systems built for sales, finance, field operations, events and recurring business workflows.</p>
+        <p data-i18n="workText">Explore interfaces conceituais para visualizar o que podemos construir. Cada solução é desenhada para o seu processo, sem modelos engessados.</p>
       </div>
 
-      <div class="work-grid">
-        <article class="work-card large">
-          <div class="case-top"><span class="case-index">01</span><span class="case-status">LIVE PRODUCT</span></div>
-          <div class="case-visual placas">
-            <div class="phone"><div class="phone-top"></div><div class="qr"></div><div class="phone-line"></div><div class="phone-line short"></div></div>
-            <div class="dashboard-mini"><i></i><strong>12,480</strong><span>QR scans</span><div class="mini-bars"><b></b><b></b><b></b><b></b><b></b></div></div>
+      <div class="showcase-grid">
+        <article class="showcase-card">
+          <div class="showcase-top"><span>01 / 06</span><span data-i18n="conceptLabel">CONCEITO DE INTERFACE</span></div>
+          <div class="showcase-preview preview-crm" aria-hidden="true">
+            <div class="mock-app"><div class="mock-app-top"><span class="mock-dots"><i></i><i></i><i></i></span><b>CRM</b><i class="mock-avatar"></i></div>
+              <div class="mock-kanban">
+                <div class="mock-lane"><span><i></i><b>01</b></span><em></em><em></em><em class="short"></em></div>
+                <div class="mock-lane"><span><i></i><b>02</b></span><em></em><em class="short"></em><em></em></div>
+                <div class="mock-lane"><span><i></i><b>03</b></span><em></em><em></em></div>
+              </div>
+            </div>
           </div>
-          <div class="case-copy">
-            <span class="case-type" data-i18n="caseCommerce">Commerce · Operations</span>
-            <h3>PlacasGO</h3>
-            <p data-i18n="casePlacas">E-commerce and operations platform with orders, payments, shipping, QR/NFC management, reseller access and customer workflows.</p>
-            <div class="case-tags"><span>Next.js</span><span>Supabase</span><span>Payments</span><span>Shipping API</span></div>
-          </div>
-        </article>
-
-        <article class="work-card">
-          <div class="case-top"><span class="case-index">02</span><span class="case-status">SaaS</span></div>
-          <div class="case-visual ficha"><div class="crm-list"><i></i><i></i><i></i><i></i></div><div class="crm-panel"><span>R$</span><strong>94%</strong><small>renewals</small></div></div>
-          <div class="case-copy">
-            <span class="case-type" data-i18n="caseCrm">CRM · Automation</span>
-            <h3>FichaPro / Vendeleve</h3>
-            <p data-i18n="caseFicha">Customer and recurring-payment management with automated communications, filters, collections and sales workflows.</p>
+          <div class="showcase-copy"><span class="showcase-kicker">CRM · Gestão</span><h3 data-i18n="solCrmTitle">CRM e gestão de clientes</h3><p data-i18n="solCrmText">Centralize contatos, negociações, atendimento e tarefas em um só lugar.</p>
+            <button class="showcase-action" type="button" data-open-solution="crm"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
           </div>
         </article>
 
-        <article class="work-card">
-          <div class="case-top"><span class="case-index">03</span><span class="case-status">FINTECH OPS</span></div>
-          <div class="case-visual gestor"><div class="donut"></div><div class="finance-lines"><i></i><i></i><i></i><i></i></div></div>
-          <div class="case-copy">
-            <span class="case-type" data-i18n="caseFinance">Finance · Recurring revenue</span>
-            <h3>TheGestor</h3>
-            <p data-i18n="caseGestor">Financial SaaS for recurring customers, renewals, payments, credits and seller/owner dashboards.</p>
+        <article class="showcase-card">
+          <div class="showcase-top"><span>02 / 06</span><span data-i18n="conceptLabel">CONCEITO DE INTERFACE</span></div>
+          <div class="showcase-preview preview-finance" aria-hidden="true">
+            <div class="mock-app"><div class="mock-app-top"><span class="mock-dots"><i></i><i></i><i></i></span><b>Analytics</b><i class="mock-avatar"></i></div>
+              <div class="mock-finance"><div class="mock-ring"><span>BI</span></div><div class="mock-finance-side"><i></i><i></i><i></i><i></i></div></div>
+              <div class="mock-bottom-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+            </div>
+          </div>
+          <div class="showcase-copy"><span class="showcase-kicker">Dados · Indicadores</span><h3 data-i18n="solDataTitle">Dashboards e financeiro</h3><p data-i18n="solDataText">Transforme informações soltas em painéis claros, filtros e decisões melhores.</p>
+            <button class="showcase-action" type="button" data-open-solution="data"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
           </div>
         </article>
 
-        <article class="work-card">
-          <div class="case-top"><span class="case-index">04</span><span class="case-status">FIELD OPS</span></div>
-          <div class="case-visual rotas"><div class="map-road r1"></div><div class="map-road r2"></div><i class="pin p1"></i><i class="pin p2"></i><i class="pin p3"></i><div class="route-line"></div></div>
-          <div class="case-copy">
-            <span class="case-type" data-i18n="caseRoutes">Maps · Field operations</span>
-            <h3>Rotas GO</h3>
-            <p data-i18n="caseRotas">Route and destination management with maps, saved locations, imports and workflows for field teams.</p>
+        <article class="showcase-card">
+          <div class="showcase-top"><span>03 / 06</span><span data-i18n="conceptLabel">CONCEITO DE INTERFACE</span></div>
+          <div class="showcase-preview preview-commerce" aria-hidden="true">
+            <div class="mock-app"><div class="mock-app-top"><span class="mock-dots"><i></i><i></i><i></i></span><b>Orders</b><i class="mock-avatar"></i></div>
+              <div class="mock-orders">
+                <div class="mock-order"><span class="mock-product"></span><div><i></i><i></i></div><b class="mock-pill"></b></div>
+                <div class="mock-order"><span class="mock-product"></span><div><i></i><i></i></div><b class="mock-pill"></b></div>
+                <div class="mock-order"><span class="mock-product"></span><div><i></i><i></i></div><b class="mock-pill"></b></div>
+              </div>
+            </div>
+          </div>
+          <div class="showcase-copy"><span class="showcase-kicker">Vendas · Pedidos</span><h3 data-i18n="solShopTitle">Lojas e portais de pedidos</h3><p data-i18n="solShopText">Venda, organize pedidos e ofereça uma experiência simples para seus clientes.</p>
+            <button class="showcase-action" type="button" data-open-solution="shop"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
           </div>
         </article>
 
-        <article class="work-card large">
-          <div class="case-top"><span class="case-index">05</span><span class="case-status">DASHBOARD</span></div>
-          <div class="case-visual invest"><div class="invest-side"><i></i><i></i><i></i></div><div class="invest-content"><div class="kpis"><b></b><b></b><b></b></div><div class="wide-chart"><i></i><i></i><i></i><i></i><i></i><i></i></div></div></div>
-          <div class="case-copy">
-            <span class="case-type" data-i18n="caseData">Data · Construction · Management</span>
-            <h3>InvestFlow</h3>
-            <p data-i18n="caseInvest">Investment and construction dashboard with branches, projects, committed vs. realized spend, filters and operational drill-downs.</p>
-            <div class="case-tags"><span>Dashboards</span><span>Operations</span><span>Analytics</span><span>Mobile</span></div>
+        <article class="showcase-card">
+          <div class="showcase-top"><span>04 / 06</span><span data-i18n="conceptLabel">CONCEITO DE INTERFACE</span></div>
+          <div class="showcase-preview preview-automation" aria-hidden="true">
+            <div class="mock-app"><div class="mock-app-top"><span class="mock-dots"><i></i><i></i><i></i></span><b>Workflows</b><i class="mock-avatar"></i></div>
+              <div class="mock-flow"><div class="mock-flow-node"><span>↙</span><i></i><i></i></div><span class="mock-connector">→</span><div class="mock-flow-node"><span>⚡</span><i></i><i></i></div><span class="mock-connector">→</span><div class="mock-flow-node"><span>✓</span><i></i><i></i></div></div>
+              <div class="mock-flow-status"><span></span><i></i><i></i></div>
+            </div>
+          </div>
+          <div class="showcase-copy"><span class="showcase-kicker">APIs · Processos</span><h3 data-i18n="solAutoTitle">Automações e integrações</h3><p data-i18n="solAutoText">Conecte sistemas, elimine tarefas manuais e acompanhe cada etapa do fluxo.</p>
+            <button class="showcase-action" type="button" data-open-solution="auto"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
+          </div>
+        </article>
+
+        <article class="showcase-card">
+          <div class="showcase-top"><span>05 / 06</span><span data-i18n="conceptLabel">CONCEITO DE INTERFACE</span></div>
+          <div class="showcase-preview preview-field" aria-hidden="true">
+            <div class="mock-app mock-map-app"><div class="mock-app-top"><span class="mock-dots"><i></i><i></i><i></i></span><b>Field ops</b><i class="mock-avatar"></i></div>
+              <div class="mock-map"><svg viewBox="0 0 300 140" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M-10 85 80 35 157 86 310 20M40 160 110 95 200 115 280 60" stroke="#30485e" stroke-width="15" stroke-linecap="round"/><path d="M65 109 123 62 208 82 260 42" stroke="#53d6c4" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 7"/><circle cx="65" cy="109" r="10" fill="#a891ff" stroke="#e2dcff" stroke-width="3"/><circle cx="208" cy="82" r="10" fill="#a891ff" stroke="#e2dcff" stroke-width="3"/><circle cx="260" cy="42" r="10" fill="#53d6c4" stroke="#defcf6" stroke-width="3"/></svg></div>
+            </div>
+          </div>
+          <div class="showcase-copy"><span class="showcase-kicker">Campo · Logística</span><h3 data-i18n="solFieldTitle">Operação externa e rotas</h3><p data-i18n="solFieldText">Organize visitas, destinos, atividades e equipes em campo.</p>
+            <button class="showcase-action" type="button" data-open-solution="field"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
+          </div>
+        </article>
+
+        <article class="showcase-card">
+          <div class="showcase-top"><span>06 / 06</span><span data-i18n="conceptLabel">CONCEITO DE INTERFACE</span></div>
+          <div class="showcase-preview preview-saas" aria-hidden="true">
+            <div class="mock-app"><div class="mock-app-top"><span class="mock-dots"><i></i><i></i><i></i></span><b>Workspace</b><i class="mock-avatar"></i></div>
+              <div class="mock-saas"><div class="mock-saas-aside"><i></i><i></i><i></i><i></i></div><div class="mock-saas-main"><div class="mock-saas-hero"><span></span><i></i></div><div class="mock-saas-tiles"><i></i><i></i><i></i></div><div class="mock-saas-line"><i></i><i></i><i></i></div></div></div>
+            </div>
+          </div>
+          <div class="showcase-copy"><span class="showcase-kicker">SaaS · Plataforma</span><h3 data-i18n="solSaasTitle">Aplicativos e SaaS sob medida</h3><p data-i18n="solSaasText">Tire uma ideia do papel com login, assinaturas, banco de dados e painel de gestão.</p>
+            <button class="showcase-action" type="button" data-open-solution="saas"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
           </div>
         </article>
       </div>
+      <p class="showcase-disclaimer" data-i18n="conceptNote">As telas são ilustrações conceituais de possibilidades — não são demonstrações de projetos ou clientes.</p>
     </section>
+
+    <dialog class="solution-dialog" id="solutionDialog" aria-labelledby="solutionDialogTitle">
+      <div class="dialog-shell">
+        <div class="dialog-head"><span class="dialog-label" data-i18n="dialogEyebrow">IDEIA DE SOLUÇÃO · PRÉVIA VISUAL</span><button class="dialog-close" id="dialogClose" type="button" aria-label="Fechar" data-i18n-aria-label="dialogClose">✕</button></div>
+        <div class="dialog-layout">
+          <div class="dialog-preview" id="dialogPreview" aria-hidden="true"></div>
+          <div class="dialog-details">
+            <h2 id="solutionDialogTitle"></h2>
+            <p id="dialogDescription"></p>
+            <h3 data-i18n="dialogIncludes">O que essa solução pode incluir</h3>
+            <ul class="dialog-features" id="dialogFeatures"></ul>
+            <button class="btn btn-primary dialog-cta" type="button" id="dialogCta" data-i18n="dialogCta">Quero conversar sobre algo assim</button>
+            <p class="dialog-note" data-i18n="dialogNote">A interface é ilustrativa. O projeto é adaptado ao que sua empresa precisa.</p>
+          </div>
+        </div>
+      </div>
+    </dialog>
 
     <section class="section process section-reveal" id="process">
       <div class="section-heading">
