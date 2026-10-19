@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  <url>
+    <loc>https://anthonyribeiro.dev/en</loc>
+    <xhtml:link rel="alternate" hreflang="en" href="https://anthonyribeiro.dev/en"/>
+    <xhtml:link rel="alternate" hreflang="pt-BR" href="https://anthonyribeiro.dev/pt-br"/>
+    <xhtml:link rel="alternate" hreflang="pt-PT" href="https://anthonyribeiro.dev/pt-pt"/>
+    <xhtml:link rel="alternate" hreflang="es" href="https://anthonyribeiro.dev/es"/>
+    <xhtml:link rel="alternate" hreflang="fr" href="https://anthonyribeiro.dev/fr"/>
+    <xhtml:link rel="alternate" hreflang="de" href="https://anthonyribeiro.dev/de"/>
+    <xhtml:link rel="alternate" hreflang="it" href="https://anthonyribeiro.dev/it"/>
+    <xhtml:link rel="alternate" hreflang="nl" href="https://anthonyribeiro.dev/nl"/>
+  </url>
+  <url><loc>https://anthonyribeiro.dev/pt-br</loc></url>
+  <url><loc>https://anthonyribeiro.dev/pt-pt</loc></url>
+  <url><loc>https://anthonyribeiro.dev/es</loc></url>
+  <url><loc>https://anthonyribeiro.dev/fr</loc></url>
+  <url><loc>https://anthonyribeiro.dev/de</loc></url>
+  <url><loc>https://anthonyribeiro.dev/it</loc></url>
+  <url><loc>https://anthonyribeiro.dev/nl</loc></url>
+</urlset>
