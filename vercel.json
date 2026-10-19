@@ -4,35 +4,35 @@
   "rewrites": [
     {
       "source": "/pt-br",
-      "destination": "/index.html"
+      "destination": "/index"
     },
     {
       "source": "/pt-pt",
-      "destination": "/index.html"
+      "destination": "/index"
     },
     {
       "source": "/en",
-      "destination": "/index.html"
+      "destination": "/index"
     },
     {
       "source": "/es",
-      "destination": "/index.html"
+      "destination": "/index"
     },
     {
       "source": "/fr",
-      "destination": "/index.html"
+      "destination": "/index"
     },
     {
       "source": "/de",
-      "destination": "/index.html"
+      "destination": "/index"
     },
     {
       "source": "/it",
-      "destination": "/index.html"
+      "destination": "/index"
     },
     {
       "source": "/nl",
-      "destination": "/index.html"
+      "destination": "/index"
     }
   ],
   "headers": [
