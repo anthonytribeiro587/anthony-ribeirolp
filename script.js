@@ -440,3 +440,16 @@ document.getElementById("leadForm")?.addEventListener("submit",event=>{
 });
 
 document.getElementById("year").textContent=new Date().getFullYear();
+
+/* Prefer the user-approved 1300px illustration when it is uploaded to GitHub.
+   Keep the current native fallback until that asset exists. */
+(()=>{
+ const host=document.querySelector(".hero-art");
+ if(!host)return;
+ const premium=new Image();
+ premium.className="hero-premium-image";
+ premium.alt="Anthony Ribeiro com painéis de sistemas, automações e aplicativo";
+ premium.decoding="async";
+ premium.onload=()=>{host.appendChild(premium);host.classList.add("hero-art--premium");};
+ premium.src="/assets/hero-premium.webp";
+})();
