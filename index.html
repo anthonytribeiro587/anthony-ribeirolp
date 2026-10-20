@@ -31,7 +31,7 @@
       <span class="brand-copy"><strong>Anthony Ribeiro</strong><small data-i18n="brandRole">Software & Automation</small></span>
     </a>
 
-    <nav class="nav" aria-label="Main navigation">
+    <nav class="nav" id="mainNav" aria-label="Main navigation">
       <a href="#services" data-i18n="navServices">Services</a>
       <a href="#work" data-i18n="navWork">Soluções</a>
       <a href="#process" data-i18n="navProcess">Process</a>
@@ -53,7 +53,7 @@
         </select>
       </label>
       <a class="top-cta" href="#contact" data-i18n="startProject">Start a project</a>
-      <button class="menu-button" type="button" aria-label="Open menu" data-i18n="menu">Menu</button>
+      <button class="menu-button" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu" data-i18n="menu">Menu</button>
     </div>
   </header>
 
@@ -190,7 +190,7 @@
               </div>
             </div>
           </div>
-          <div class="showcase-copy"><span class="showcase-kicker">CRM · Gestão</span><h3 data-i18n="solCrmTitle">CRM e gestão de clientes</h3><p data-i18n="solCrmText">Centralize contatos, negociações, atendimento e tarefas em um só lugar.</p>
+          <div class="showcase-copy"><span class="showcase-kicker">CRM</span><h3 data-i18n="solCrmTitle">CRM e gestão de clientes</h3><p data-i18n="solCrmText">Centralize contatos, negociações, atendimento e tarefas em um só lugar.</p>
             <button class="showcase-action" type="button" data-open-solution="crm"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
           </div>
         </article>
@@ -203,7 +203,7 @@
               <div class="mock-bottom-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
             </div>
           </div>
-          <div class="showcase-copy"><span class="showcase-kicker">Dados · Indicadores</span><h3 data-i18n="solDataTitle">Dashboards e financeiro</h3><p data-i18n="solDataText">Transforme informações soltas em painéis claros, filtros e decisões melhores.</p>
+          <div class="showcase-copy"><span class="showcase-kicker">BI · DATA</span><h3 data-i18n="solDataTitle">Dashboards e financeiro</h3><p data-i18n="solDataText">Transforme informações soltas em painéis claros, filtros e decisões melhores.</p>
             <button class="showcase-action" type="button" data-open-solution="data"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
           </div>
         </article>
@@ -219,7 +219,7 @@
               </div>
             </div>
           </div>
-          <div class="showcase-copy"><span class="showcase-kicker">Vendas · Pedidos</span><h3 data-i18n="solShopTitle">Lojas e portais de pedidos</h3><p data-i18n="solShopText">Venda, organize pedidos e ofereça uma experiência simples para seus clientes.</p>
+          <div class="showcase-copy"><span class="showcase-kicker">E-COMMERCE</span><h3 data-i18n="solShopTitle">Lojas e portais de pedidos</h3><p data-i18n="solShopText">Venda, organize pedidos e ofereça uma experiência simples para seus clientes.</p>
             <button class="showcase-action" type="button" data-open-solution="shop"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
           </div>
         </article>
@@ -232,7 +232,7 @@
               <div class="mock-flow-status"><span></span><i></i><i></i></div>
             </div>
           </div>
-          <div class="showcase-copy"><span class="showcase-kicker">APIs · Processos</span><h3 data-i18n="solAutoTitle">Automações e integrações</h3><p data-i18n="solAutoText">Conecte sistemas, elimine tarefas manuais e acompanhe cada etapa do fluxo.</p>
+          <div class="showcase-copy"><span class="showcase-kicker">APIs</span><h3 data-i18n="solAutoTitle">Automações e integrações</h3><p data-i18n="solAutoText">Conecte sistemas, elimine tarefas manuais e acompanhe cada etapa do fluxo.</p>
             <button class="showcase-action" type="button" data-open-solution="auto"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
           </div>
         </article>
@@ -244,7 +244,7 @@
               <div class="mock-map"><svg viewBox="0 0 300 140" fill="none" xmlns="http://www.w3.org/2000/svg"><path d="M-10 85 80 35 157 86 310 20M40 160 110 95 200 115 280 60" stroke="#30485e" stroke-width="15" stroke-linecap="round"/><path d="M65 109 123 62 208 82 260 42" stroke="#53d6c4" stroke-width="4" stroke-linecap="round" stroke-dasharray="7 7"/><circle cx="65" cy="109" r="10" fill="#a891ff" stroke="#e2dcff" stroke-width="3"/><circle cx="208" cy="82" r="10" fill="#a891ff" stroke="#e2dcff" stroke-width="3"/><circle cx="260" cy="42" r="10" fill="#53d6c4" stroke="#defcf6" stroke-width="3"/></svg></div>
             </div>
           </div>
-          <div class="showcase-copy"><span class="showcase-kicker">Campo · Logística</span><h3 data-i18n="solFieldTitle">Operação externa e rotas</h3><p data-i18n="solFieldText">Organize visitas, destinos, atividades e equipes em campo.</p>
+          <div class="showcase-copy"><span class="showcase-kicker">MAPS</span><h3 data-i18n="solFieldTitle">Operação externa e rotas</h3><p data-i18n="solFieldText">Organize visitas, destinos, atividades e equipes em campo.</p>
             <button class="showcase-action" type="button" data-open-solution="field"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
           </div>
         </article>
@@ -256,7 +256,7 @@
               <div class="mock-saas"><div class="mock-saas-aside"><i></i><i></i><i></i><i></i></div><div class="mock-saas-main"><div class="mock-saas-hero"><span></span><i></i></div><div class="mock-saas-tiles"><i></i><i></i><i></i></div><div class="mock-saas-line"><i></i><i></i><i></i></div></div></div>
             </div>
           </div>
-          <div class="showcase-copy"><span class="showcase-kicker">SaaS · Plataforma</span><h3 data-i18n="solSaasTitle">Aplicativos e SaaS sob medida</h3><p data-i18n="solSaasText">Tire uma ideia do papel com login, assinaturas, banco de dados e painel de gestão.</p>
+          <div class="showcase-copy"><span class="showcase-kicker">SaaS</span><h3 data-i18n="solSaasTitle">Aplicativos e SaaS sob medida</h3><p data-i18n="solSaasText">Tire uma ideia do papel com login, assinaturas, banco de dados e painel de gestão.</p>
             <button class="showcase-action" type="button" data-open-solution="saas"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
           </div>
         </article>
