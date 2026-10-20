@@ -499,3 +499,9 @@ body:before{background:radial-gradient(ellipse at 77% 6%,rgba(18,72,195,.25),tra
  .premium-solution-card .showcase-preview{height:185px!important}
 }
 @media(prefers-reduced-motion:reduce){.premium-solution-card{transition:none}}
+
+
+/* Browser QA: prevent intrinsic eyebrow width and glow overflow at narrow widths */
+.premium-hero:before{left:0!important;width:100%!important}
+.premium-hero .hero-eyebrow{display:inline-block;max-width:100%;white-space:normal;overflow-wrap:anywhere}
+@media(max-width:719px){.premium-hero:before{left:0;width:100%}}
