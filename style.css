@@ -218,3 +218,14 @@ body:has(.solution-dialog[open]){overflow:hidden}
 @media(max-width:719px){.showcase-grid{grid-template-columns:minmax(0,1fr);gap:15px;margin-top:28px}.showcase-preview{height:212px}.showcase-copy{padding:20px}.showcase-copy h3{font-size:24px}.showcase-card:hover{transform:none}.float-card{display:none}.hero-product{min-height:auto}.product-window{transform:none!important}.dialog-shell{padding:18px}.dialog-layout{grid-template-columns:1fr;gap:18px}.dialog-preview>.showcase-preview{height:206px;padding:14px}.dialog-preview .mock-app{height:164px}.dialog-preview .mock-app-top{height:32px;flex-basis:32px}.dialog-preview .mock-lane em{height:24px}.dialog-preview .mock-flow-node{padding:6px}.dialog-preview .mock-ring{width:70px;height:70px;flex-basis:70px}.dialog-preview .mock-ring span{width:46px;height:46px}.dialog-label{font-size:9px}.dialog-details h2{font-size:27px}.dialog-details h3{margin:18px 0 10px}.dialog-features{gap:9px;margin-bottom:18px}}
 @media(max-width:390px){.showcase-preview{padding:12px;height:190px}.mock-app{height:156px}.mock-lane{padding:5px}.mock-kanban{gap:5px;padding:9px}.mock-lane em{height:22px}.mock-finance{gap:10px}.mock-ring{width:70px;height:70px;flex-basis:70px}.mock-ring span{width:46px;height:46px}.mock-flow-node{padding:6px 3px}.hero h1{font-size:37px}.product-top strong{font-size:12px}.metric-grid article{padding:5px}.metric-grid strong{font-size:13px}.product-main{padding:9px}.metric-grid{gap:4px}}
 @media(prefers-reduced-motion:reduce){.showcase-card,.showcase-action{transition:none}}
+
+/* Consistent service card spacing and safe fluid widths */
+.services-grid{align-items:stretch}
+.service-card{position:relative;isolation:isolate;display:flex;flex-direction:column;min-width:0;overflow:hidden;min-height:250px}
+.service-card:after{content:"";position:absolute;width:120px;height:120px;right:-50px;top:-55px;border-radius:50%;background:radial-gradient(circle,rgba(133,109,254,.11),transparent 72%);pointer-events:none}
+.service-card h3{line-height:1.2;overflow-wrap:break-word}.service-card p{flex:1;overflow-wrap:break-word}
+.service-card .service-tags{margin-top:22px}
+.hero-copy,.product-main,.product-top div,.metric-grid article,.activity-card div,.topbar,.contact-copy{min-width:0}
+.metric-grid small,.metric-grid em{overflow-wrap:anywhere}
+@media(min-width:720px) and (max-width:979px){.hero{grid-template-columns:minmax(0,.95fr) minmax(0,1.05fr);gap:24px}.hero h1{font-size:clamp(39px,5.6vw,58px)}.product-main{padding:11px}.metric-grid article{padding:7px}.metric-grid{gap:5px}.float-a{left:0}.float-b{right:0}}
+@media(max-width:719px){.services-grid{gap:12px}.service-card{min-height:unset;padding:22px}.service-card h3{margin:18px 0 8px}.service-card p{flex:auto}.hero-actions .btn{min-height:50px}.hero-product .product-window{width:100%}}
