@@ -302,3 +302,35 @@ body:has(.solution-dialog[open]){overflow:hidden}
   .hero-ui-note{font-size:8px}
 }
 @media(prefers-reduced-motion:reduce){.hero-portrait,.hero-ui-card{transition:none}}
+
+
+/* Sharp identity and illustration assets. Vector assets remain crisp at any viewport. */
+.brand-mark{width:60px;height:44px;flex:0 0 60px;object-fit:contain;object-position:left center;display:block;filter:drop-shadow(0 0 11px rgba(64,137,245,.22))}
+.brand{gap:7px}
+.service-icon{width:50px;height:50px;flex:0 0 50px;padding:0;border:0;border-radius:14px;background:transparent;overflow:visible}
+.service-icon img{display:block;width:100%;height:100%;object-fit:contain;image-rendering:auto}
+.service-card{gap:0}
+.service-card h3{margin-top:14px}
+.showcase-preview{padding:0!important;background:#0a1124!important;overflow:hidden;isolation:isolate}
+.showcase-preview:after{display:none}
+.showcase-image{display:block;width:100%;height:100%;max-width:none;object-fit:cover;object-position:center;image-rendering:auto;transform:translateZ(0)}
+.dialog-preview>.showcase-preview{width:100%;height:310px!important;padding:0!important;background:#0a1124}
+.dialog-preview .showcase-image{width:100%;height:100%;object-fit:contain}
+.hero-portrait-composition:before{content:"";position:absolute;z-index:0;inset:2% 5% 0;background:radial-gradient(ellipse at 50% 50%,rgba(35,114,255,.33) 0%,rgba(13,77,206,.23) 30%,rgba(32,28,93,.08) 52%,transparent 72%);filter:blur(16px);pointer-events:none}
+.hero-portrait-composition .portrait-aura{z-index:0;opacity:1}
+.hero-portrait-composition .hero-portrait{z-index:3}
+.hero-portrait-composition .hero-ui-back{z-index:1}
+.hero-portrait-composition .hero-ui-front{z-index:4}
+@media(max-width:719px){
+  .brand-mark{width:47px;height:35px;flex-basis:47px}
+  .brand{gap:5px}
+  .service-icon{width:46px;height:46px;flex-basis:46px}
+  .showcase-preview{height:205px!important;min-width:0}
+  .showcase-image{object-fit:cover}
+  .dialog-preview>.showcase-preview{height:215px!important}
+}
+@media(max-width:389px){
+  .brand-mark{width:42px;height:33px;flex-basis:42px}
+  .showcase-preview{height:180px!important}
+  .dialog-preview>.showcase-preview{height:185px!important}
+}
