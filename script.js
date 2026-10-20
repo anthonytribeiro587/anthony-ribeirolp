@@ -240,6 +240,18 @@ for (const [locale, copy] of Object.entries(solutionCopy)) {
   }
 }
 
+const heroMessages = {
+  en: {heroLead:"Custom software built for",heroHighlight:"your business.",heroVisualNote:"Visual concept · tailored digital solutions"},
+  "pt-br": {heroLead:"Sistemas sob medida para",heroHighlight:"o seu negócio.",heroVisualNote:"Conceito visual · sistemas sob medida"},
+  "pt-pt": {heroLead:"Software à medida para",heroHighlight:"o seu negócio.",heroVisualNote:"Conceito visual · soluções à medida"},
+  es: {heroLead:"Software a medida para",heroHighlight:"tu negocio.",heroVisualNote:"Concepto visual · soluciones a medida"},
+  fr: {heroLead:"Logiciels sur mesure pour",heroHighlight:"votre entreprise.",heroVisualNote:"Concept visuel · solutions sur mesure"},
+  de: {heroLead:"Individuelle Software für",heroHighlight:"Ihr Unternehmen.",heroVisualNote:"Visuelles Konzept · individuelle Software"},
+  it: {heroLead:"Software su misura per",heroHighlight:"la tua azienda.",heroVisualNote:"Concept visivo · soluzioni su misura"},
+  nl: {heroLead:"Software op maat voor",heroHighlight:"uw bedrijf.",heroVisualNote:"Visueel concept · maatwerksoftware"}
+};
+for (const [locale, message] of Object.entries(heroMessages)) Object.assign(translations[locale], message);
+
 const localeAliases = {
   "pt":"pt-br","pt-BR":"pt-br","pt-PT":"pt-pt",
   "en":"en","en-US":"en","en-GB":"en","en-CA":"en","en-AU":"en",
