@@ -33,15 +33,15 @@
     </a>
 
     <nav class="nav" id="mainNav" aria-label="Main navigation">
-      <a href="#services" data-i18n="navServices">Services</a>
-      <a href="#work" data-i18n="navWork">Soluções</a>
-      <a href="#process" data-i18n="navProcess">Process</a>
-      <a href="#contact" data-i18n="navContact">Contact</a>
+      <a href="#services" data-i18n="navServices">Serviços</a>
+      <a href="#process" data-i18n="navProcess">Processos</a>
+      <a href="#stack" data-i18n="navStack">Stack</a>
+      <a href="#contact" data-i18n="navContact">Contato</a>
     </nav>
 
     <div class="top-actions">
       <label class="language-control" aria-label="Language">
-        <span>🌐</span>
+        <span>🇧🇷</span>
         <select id="languageSelect">
           <option value="pt-br">PT-BR</option>
           <option value="pt-pt">PT-PT</option>
@@ -53,169 +53,126 @@
           <option value="nl">NL</option>
         </select>
       </label>
-      <a class="top-cta" href="#contact" data-i18n="startProject">Start a project</a>
+      <a class="top-cta" href="#contact" data-i18n="startProject">Falar comigo</a>
       <button class="menu-button" type="button" aria-expanded="false" aria-controls="mainNav" aria-label="Open menu" data-i18n="menu">Menu</button>
     </div>
   </header>
 
   <main id="home">
-    <section class="hero hero-redesign section-reveal">
+    <section class="hero hero-redesign premium-hero section-reveal">
       <div class="hero-copy">
-        <div class="availability">
-          <i></i>
-          <span data-i18n="availability">Disponível para projetos remotos</span>
-        </div>
-        <p class="eyebrow" data-i18n="eyebrow">SISTEMAS SOB MEDIDA · AUTOMAÇÃO · PRODUTOS DIGITAIS</p>
-        <h1><span data-i18n="heroLead">Sistemas sob medida para</span> <span class="hero-gradient" data-i18n="heroHighlight">o seu negócio.</span></h1>
-        <p class="hero-subtitle" data-i18n="heroSubtitle">Desenvolvo sistemas web personalizados, dashboards, CRMs, automações e integrações que transformam processos manuais em operações simples e escaláveis.</p>
+        <p class="hero-eyebrow" data-i18n="eyebrow">SISTEMAS SOB MEDIDA · AUTOMAÇÕES · PRODUTOS DIGITAIS</p>
+        <h1><span data-i18n="heroLead">Soluções digitais que </span><strong class="hero-gradient" data-i18n="heroHighlight">realmente</strong><span data-i18n="heroEnd"> funcionam para o seu negócio.</span></h1>
+        <p class="hero-subtitle" data-i18n="heroSubtitle">Desenvolvo sistemas personalizados, automações e integrações que simplificam processos, reduzem trabalho manual e ajudam sua empresa a crescer.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#contact" data-i18n="heroCta">Conte sobre seu projeto</a>
-          <a class="btn btn-secondary" href="#work" data-i18n="heroSecondary">Explorar possibilidades</a>
+          <a class="btn btn-primary" href="#contact" data-i18n="heroCta">Conversar sobre seu projeto</a>
+          <a class="btn btn-secondary" href="#services" data-i18n="heroSecondary">Ver serviços</a>
         </div>
-        <div class="global-line">
-          <span>🌍 <b data-i18n="remote">Atendimento global</b></span>
-          <span>EUR · USD · BRL</span>
-          <span data-i18n="b2b">Freelance & B2B</span>
+        <div class="hero-trust">
+          <span><i aria-hidden="true">◎</i><span data-i18n="heroTrust1">Atendimento direto</span></span>
+          <span><i aria-hidden="true">▤</i><span data-i18n="heroTrust2">Orçamento sem compromisso</span></span>
+          <span><i aria-hidden="true">↗</i><span data-i18n="heroTrust3">Foco em resultado</span></span>
         </div>
       </div>
-
-      <div class="hero-product hero-portrait-composition" aria-label="Anthony Ribeiro e exemplos visuais de interfaces digitais">
-        <div class="portrait-aura" aria-hidden="true"></div>
-        <div class="hero-ui-card hero-ui-back" aria-hidden="true">
-          <div class="hero-ui-top"><span class="hero-ui-symbol">◈</span><span>WORKSPACE</span><span class="hero-ui-status"></span></div>
-          <div class="hero-ui-lines"><i></i><i></i><i></i></div>
-          <div class="hero-ui-chart"><i></i><i></i><i></i><i></i><i></i></div>
+      <div class="hero-product hero-portrait-composition" role="img" aria-label="Anthony Ribeiro com elementos ilustrativos de painel, automações e aplicativo">
+        <div class="hero-art-inner">
+        <div class="portrait-aura"></div>
+        <div class="hero-premium-dashboard">
+          <div class="mini-panel-heading"><span class="mini-panel-badge">◈</span><strong>Visão geral</strong><span class="mini-period">Últimos 30 dias</span></div>
+          <div class="mini-panel-metrics">
+            <div><small>Receita</small><strong>R$ 124.580</strong><em>↑ +42%</em></div>
+            <div><small>Pedidos</small><strong>1.204</strong><em>↑ +28%</em></div>
+            <div><small>Clientes</small><strong>892</strong><em>↑ +18%</em></div>
+          </div>
+          <div class="mini-panel-bars"><i></i><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <small class="hero-demo-indicator" data-i18n="conceptLabel">CONCEITO DE INTERFACE</small>
         </div>
-        <img class="hero-portrait" src="/assets/hero-anthony.webp" alt="Retrato artístico de Anthony Ribeiro com iluminação azul" width="250" height="196" fetchpriority="high" decoding="async" />
-        <div class="hero-ui-card hero-ui-front" aria-hidden="true">
-          <div class="hero-ui-top"><span class="hero-ui-symbol">⌘</span><span data-i18n="mockPerformance">Desempenho</span><span class="hero-ui-status"></span></div>
-          <div class="hero-ui-chart"><i></i><i></i><i></i><i></i><i></i><i></i></div>
-          <span class="hero-ui-caption" data-i18n="mockLastMonths">Prévia ilustrativa</span>
+        <div class="hero-premium-automation">
+          <div class="mini-panel-heading"><span class="mini-panel-badge">ϟ</span><strong data-i18n="floatAutomation">Automações</strong></div>
+          <div class="mini-auto-row"><span>▣</span><small>Novo pedido</small><b></b></div>
+          <div class="mini-auto-row"><span>✉</span><small>Enviar e-mail</small><b></b></div>
+          <div class="mini-auto-row"><span>⬡</span><small>Atualizar estoque</small><b></b></div>
+          <div class="mini-auto-row"><span>♧</span><small>Notificar equipe</small><b></b></div>
         </div>
-        <div class="hero-ui-note"><span class="hero-note-dot"></span><span data-i18n="heroVisualNote">Conceito visual · software sob medida</span></div>
+        <img class="hero-portrait" src="/assets/hero-anthony.webp" alt="" width="530" height="417" fetchpriority="high" decoding="async" />
+        <div class="hero-premium-phone" aria-hidden="true">
+          <div class="phone-notch"></div><div class="phone-title">Pedidos <span>+ Novo</span></div>
+          <div class="phone-tabs"><span>Todos</span><span>Em produção</span><span>Enviados</span></div>
+          <div class="phone-order"><i>▣</i><div><b>#1024</b><small>R$ 1.250,00</small></div><em>Pago</em></div>
+          <div class="phone-order"><i>▧</i><div><b>#1023</b><small>R$ 890,00</small></div><em>Produção</em></div>
+          <div class="phone-order"><i>▣</i><div><b>#1022</b><small>R$ 2.340,00</small></div><em>Enviado</em></div>
+          <div class="phone-order"><i>◈</i><div><b>#1021</b><small>R$ 670,00</small></div><em>Pronto</em></div>
+          <span class="phone-concept" data-i18n="mockLabel">CONCEITO</span>
+        </div>
+        <div class="hero-doodle hero-doodle-top" aria-hidden="true">Ideia<br/>em solução <span>↙</span></div>
+        <div class="hero-doodle hero-doodle-bottom" aria-hidden="true">Processos<br/>mais simples <span>↗</span></div>
+        </div>
       </div>
     </section>
 
-    <section class="credibility section-reveal" aria-label="Capabilities">
-      <span data-i18n="credibility">From idea to production</span>
-      <div class="tech-strip">
-        <b>Next.js</b><b>React</b><b>TypeScript</b><b>Supabase</b><b>PostgreSQL</b><b>Vercel</b><b>APIs</b>
-      </div>
-    </section>
-
-    <section class="section services section-reveal" id="services">
-      <div class="section-heading">
-        <p class="eyebrow" data-i18n="servicesEyebrow">WHAT I BUILD</p>
-        <h2 data-i18n="servicesTitle">Digital tools that remove friction from your operation.</h2>
-        <p data-i18n="servicesText">From a focused internal dashboard to a complete SaaS product, I build around the process your team actually uses.</p>
-      </div>
-
-      <div class="services-grid">
-        <article class="service-card featured">
-          <span class="service-icon"><img src="/assets/landing/icone-gestao.svg" alt="" width="44" height="44" loading="lazy" decoding="async"></span>
-          <h3 data-i18n="serviceSystems">Custom business systems</h3>
-          <p data-i18n="serviceSystemsText">Internal platforms for customers, orders, finance, operations, workflows and permissions.</p>
-          <div class="service-tags"><span>CRM</span><span>ERP-lite</span><span>Backoffice</span></div>
-        </article>
-        <article class="service-card">
-          <span class="service-icon"><img src="/assets/landing/icone-automacoes.svg" alt="" width="44" height="44" loading="lazy" decoding="async"></span>
-          <h3 data-i18n="serviceAutomation">Automation & integrations</h3>
-          <p data-i18n="serviceAutomationText">Connect APIs, webhooks, payments, messaging and repetitive processes so your team can focus on the work that matters.</p>
-        </article>
-        <article class="service-card">
-          <span class="service-icon"><img src="/assets/landing/icone-dashboards.svg" alt="" width="44" height="44" loading="lazy" decoding="async"></span>
-          <h3 data-i18n="serviceDashboards">Dashboards & analytics</h3>
-          <p data-i18n="serviceDashboardsText">Clear operational and financial dashboards with filters, drill-downs and decision-ready information.</p>
-        </article>
-        <article class="service-card">
-          <span class="service-icon"><img src="/assets/landing/icone-saas.svg" alt="" width="44" height="44" loading="lazy" decoding="async"></span>
-          <h3 data-i18n="serviceMvp">MVPs & SaaS products</h3>
-          <p data-i18n="serviceMvpText">From first prototype to a production-ready web product with authentication, database and billing flows.</p>
-        </article>
-        <article class="service-card">
-          <span class="service-icon"><img src="/assets/landing/icone-ecommerce.svg" alt="" width="44" height="44" loading="lazy" decoding="async"></span>
-          <h3 data-i18n="serviceCommerce">Portals, orders & commerce</h3>
-          <p data-i18n="serviceCommerceText">Customer portals, order tracking, quotation flows, online sales and payment integrations.</p>
-        </article>
-        <article class="service-card">
-          <span class="service-icon"><img src="/assets/landing/icone-suporte.svg" alt="" width="44" height="44" loading="lazy" decoding="async"></span>
-          <h3 data-i18n="serviceImprove">Fixes, evolution & support</h3>
-          <p data-i18n="serviceImproveText">Improve an existing React/Next.js/Supabase product, fix bugs and evolve it without rebuilding everything.</p>
-        </article>
-      </div>
-    </section>
-
-    <section class="section work section-reveal" id="work">
+    <section class="section premium-solutions section-reveal" id="services">
+      <span class="section-anchor" id="work" aria-hidden="true"></span>
       <div class="section-heading split-heading">
-        <div>
-          <p class="eyebrow" data-i18n="workEyebrow">POSSIBILIDADES</p>
-          <h2 data-i18n="workTitle">Ideias que podem virar a solução da sua empresa.</h2>
-        </div>
-        <p data-i18n="workText">Explore interfaces conceituais para visualizar o que podemos construir. Cada solução é desenhada para o seu processo, sem modelos engessados.</p>
+        <div><p class="eyebrow" data-i18n="workEyebrow">SERVIÇOS</p><h2 data-i18n="workTitle">Soluções personalizadas para diferentes necessidades.</h2></div>
+        <p data-i18n="workText">Cada projeto é desenvolvido de forma única, com foco na sua operação, no seu objetivo e na realidade do seu negócio.</p>
       </div>
-
-      <div class="showcase-grid">
-        <article class="showcase-card">
-          <div class="showcase-top"><span>01 / 06</span><span data-i18n="conceptLabel">CONCEITO DE INTERFACE</span></div>
-          <div class="showcase-preview preview-crm" aria-hidden="true">
-            <img class="showcase-image" src="/assets/landing/servico-gestao.svg" alt="" width="1280" height="760" loading="lazy" decoding="async">
-          </div>
-          <div class="showcase-copy"><span class="showcase-kicker">CRM</span><h3 data-i18n="solCrmTitle">CRM e gestão de clientes</h3><p data-i18n="solCrmText">Centralize contatos, negociações, atendimento e tarefas em um só lugar.</p>
-            <button class="showcase-action" type="button" data-open-solution="crm"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
-          </div>
-        </article>
-
-        <article class="showcase-card">
-          <div class="showcase-top"><span>02 / 06</span><span data-i18n="conceptLabel">CONCEITO DE INTERFACE</span></div>
-          <div class="showcase-preview preview-finance" aria-hidden="true">
-            <img class="showcase-image" src="/assets/landing/servico-dashboards.svg" alt="" width="1280" height="760" loading="lazy" decoding="async">
-          </div>
-          <div class="showcase-copy"><span class="showcase-kicker">BI · DATA</span><h3 data-i18n="solDataTitle">Dashboards e financeiro</h3><p data-i18n="solDataText">Transforme informações soltas em painéis claros, filtros e decisões melhores.</p>
-            <button class="showcase-action" type="button" data-open-solution="data"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
+      <div class="showcase-grid premium-showcase-grid">
+        <article class="showcase-card premium-solution-card">
+          <div class="showcase-preview" aria-hidden="true"><img class="service-mark" src="/assets/landing/icone-gestao.svg" alt="" width="48" height="48" loading="lazy" /><img class="showcase-image" src="/assets/landing/arte-gestao.svg" alt="" width="1280" height="735" loading="lazy" decoding="async"></div>
+          <div class="showcase-copy">
+            <h3 data-i18n="serviceSystems">Sistemas de gestão sob medida</h3>
+            <p data-i18n="serviceSystemsText">Plataformas completas para gestão de clientes, pedidos, financeiro, operações e muito mais.</p>
+            <div class="case-tags"><span>Web</span><span>Painel</span><span>Multiusuário</span></div>
+            <button class="showcase-action" type="button" data-open-solution="crm"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">→</span></button>
           </div>
         </article>
-
-        <article class="showcase-card">
-          <div class="showcase-top"><span>03 / 06</span><span data-i18n="conceptLabel">CONCEITO DE INTERFACE</span></div>
-          <div class="showcase-preview preview-commerce" aria-hidden="true">
-            <img class="showcase-image" src="/assets/landing/servico-ecommerce.svg" alt="" width="1280" height="760" loading="lazy" decoding="async">
-          </div>
-          <div class="showcase-copy"><span class="showcase-kicker">E-COMMERCE</span><h3 data-i18n="solShopTitle">Lojas e portais de pedidos</h3><p data-i18n="solShopText">Venda, organize pedidos e ofereça uma experiência simples para seus clientes.</p>
-            <button class="showcase-action" type="button" data-open-solution="shop"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
-          </div>
-        </article>
-
-        <article class="showcase-card">
-          <div class="showcase-top"><span>04 / 06</span><span data-i18n="conceptLabel">CONCEITO DE INTERFACE</span></div>
-          <div class="showcase-preview preview-automation" aria-hidden="true">
-            <img class="showcase-image" src="/assets/landing/servico-automacoes.svg" alt="" width="1280" height="760" loading="lazy" decoding="async">
-          </div>
-          <div class="showcase-copy"><span class="showcase-kicker">APIs</span><h3 data-i18n="solAutoTitle">Automações e integrações</h3><p data-i18n="solAutoText">Conecte sistemas, elimine tarefas manuais e acompanhe cada etapa do fluxo.</p>
-            <button class="showcase-action" type="button" data-open-solution="auto"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
+        <article class="showcase-card premium-solution-card">
+          <div class="showcase-preview" aria-hidden="true"><img class="service-mark" src="/assets/landing/icone-automacoes.svg" alt="" width="48" height="48" loading="lazy" /><img class="showcase-image" src="/assets/landing/arte-automacoes.svg" alt="" width="1280" height="735" loading="lazy" decoding="async"></div>
+          <div class="showcase-copy">
+            <h3 data-i18n="serviceAutomation">Automações & integrações</h3>
+            <p data-i18n="serviceAutomationText">Conecte sistemas, automatize tarefas e reduza processos manuais com integrações inteligentes.</p>
+            <div class="case-tags"><span>WhatsApp</span><span>E-mail</span><span>APIs</span></div>
+            <button class="showcase-action" type="button" data-open-solution="auto"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">→</span></button>
           </div>
         </article>
-
-        <article class="showcase-card">
-          <div class="showcase-top"><span>05 / 06</span><span data-i18n="conceptLabel">CONCEITO DE INTERFACE</span></div>
-          <div class="showcase-preview preview-field" aria-hidden="true">
-            <img class="showcase-image" src="/assets/landing/servico-rotas.svg" alt="" width="1280" height="760" loading="lazy" decoding="async">
-          </div>
-          <div class="showcase-copy"><span class="showcase-kicker">MAPS</span><h3 data-i18n="solFieldTitle">Operação externa e rotas</h3><p data-i18n="solFieldText">Organize visitas, destinos, atividades e equipes em campo.</p>
-            <button class="showcase-action" type="button" data-open-solution="field"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
+        <article class="showcase-card premium-solution-card">
+          <div class="showcase-preview" aria-hidden="true"><img class="service-mark" src="/assets/landing/icone-dashboards.svg" alt="" width="48" height="48" loading="lazy" /><img class="showcase-image" src="/assets/landing/arte-dashboards.svg" alt="" width="1280" height="735" loading="lazy" decoding="async"></div>
+          <div class="showcase-copy">
+            <h3 data-i18n="serviceDashboards">Dashboards & indicadores</h3>
+            <p data-i18n="serviceDashboardsText">Transforme seus dados em informações claras para tomar decisões com mais confiança.</p>
+            <div class="case-tags"><span>Relatórios</span><span>Gráficos</span><span>Tempo real</span></div>
+            <button class="showcase-action" type="button" data-open-solution="data"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">→</span></button>
           </div>
         </article>
-
-        <article class="showcase-card">
-          <div class="showcase-top"><span>06 / 06</span><span data-i18n="conceptLabel">CONCEITO DE INTERFACE</span></div>
-          <div class="showcase-preview preview-saas" aria-hidden="true">
-            <img class="showcase-image" src="/assets/landing/servico-saas.svg" alt="" width="1280" height="760" loading="lazy" decoding="async">
+        <article class="showcase-card premium-solution-card">
+          <div class="showcase-preview" aria-hidden="true"><img class="service-mark" src="/assets/landing/icone-ecommerce.svg" alt="" width="48" height="48" loading="lazy" /><img class="showcase-image" src="/assets/landing/arte-ecommerce.svg" alt="" width="1280" height="735" loading="lazy" decoding="async"></div>
+          <div class="showcase-copy">
+            <h3 data-i18n="solShopTitle">Lojas e portais de pedidos</h3>
+            <p data-i18n="solShopText">E-commerces e portais personalizados, com pagamentos, frete, gerenciamento e área do cliente.</p>
+            <div class="case-tags"><span>Pagamentos</span><span>Frete</span><span>Área do cliente</span></div>
+            <button class="showcase-action" type="button" data-open-solution="shop"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">→</span></button>
           </div>
-          <div class="showcase-copy"><span class="showcase-kicker">SaaS</span><h3 data-i18n="solSaasTitle">Aplicativos e SaaS sob medida</h3><p data-i18n="solSaasText">Tire uma ideia do papel com login, assinaturas, banco de dados e painel de gestão.</p>
-            <button class="showcase-action" type="button" data-open-solution="saas"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">↗</span></button>
+        </article>
+        <article class="showcase-card premium-solution-card">
+          <div class="showcase-preview" aria-hidden="true"><img class="service-mark" src="/assets/landing/icone-saas.svg" alt="" width="48" height="48" loading="lazy" /><img class="showcase-image" src="/assets/landing/arte-saas.svg" alt="" width="1280" height="735" loading="lazy" decoding="async"></div>
+          <div class="showcase-copy">
+            <h3 data-i18n="solSaasTitle">Aplicativos e SaaS sob medida</h3>
+            <p data-i18n="solSaasText">Soluções web e mobile com login, áreas de acesso, planos, assinaturas e funcionalidades específicas.</p>
+            <div class="case-tags"><span>Aplicativo</span><span>SaaS</span><span>Escalável</span></div>
+            <button class="showcase-action" type="button" data-open-solution="saas"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">→</span></button>
+          </div>
+        </article>
+        <article class="showcase-card premium-solution-card">
+          <div class="showcase-preview" aria-hidden="true"><img class="service-mark" src="/assets/landing/icone-rotas.svg" alt="" width="48" height="48" loading="lazy" /><img class="showcase-image" src="/assets/landing/arte-rotas.svg" alt="" width="1280" height="735" loading="lazy" decoding="async"></div>
+          <div class="showcase-copy">
+            <h3 data-i18n="solFieldTitle">Operações externas e rotas</h3>
+            <p data-i18n="solFieldText">Controle de equipes em campo, rotas, visitas, checklists, fotos e acompanhamento em tempo real.</p>
+            <div class="case-tags"><span>Mapa</span><span>Rotas</span><span>Equipe externa</span></div>
+            <button class="showcase-action" type="button" data-open-solution="field"><span data-i18n="exploreSolution">Explorar solução</span><span aria-hidden="true">→</span></button>
           </div>
         </article>
       </div>
-      <p class="showcase-disclaimer" data-i18n="conceptNote">As telas são ilustrações conceituais de possibilidades — não são demonstrações de projetos ou clientes.</p>
+      <p class="showcase-disclaimer" data-i18n="conceptNote">Interfaces ilustrativas de possibilidades, não demonstrações de projetos de clientes.</p>
     </section>
 
     <dialog class="solution-dialog" id="solutionDialog" aria-labelledby="solutionDialogTitle">
@@ -235,16 +192,25 @@
       </div>
     </dialog>
 
-    <section class="section process section-reveal" id="process">
-      <div class="section-heading">
-        <p class="eyebrow" data-i18n="processEyebrow">HOW IT WORKS</p>
-        <h2 data-i18n="processTitle">A clear path from problem to production.</h2>
+    <section class="section process premium-process section-reveal" id="process">
+      <div class="process-layout">
+        <div class="section-heading">
+          <p class="eyebrow" data-i18n="processEyebrow">COMO FUNCIONA</p>
+          <h2 data-i18n="processTitle">Do primeiro contato até a solução em uso.</h2>
+        </div>
+        <div class="process-grid">
+          <article><span>01</span><h3 data-i18n="step1">Entender</h3><p data-i18n="step1Text">Conversamos sobre suas necessidades e objetivos.</p></article>
+          <article><span>02</span><h3 data-i18n="step2">Planejar</h3><p data-i18n="step2Text">Definimos a solução ideal e o escopo do projeto.</p></article>
+          <article><span>03</span><h3 data-i18n="step3">Desenvolver</h3><p data-i18n="step3Text">Você acompanha o progresso com testes e ajustes.</p></article>
+          <article><span>04</span><h3 data-i18n="step4">Publicar & evoluir</h3><p data-i18n="step4Text">Entregamos e seguimos com suporte e melhorias.</p></article>
+        </div>
       </div>
-      <div class="process-grid">
-        <article><span>01</span><h3 data-i18n="step1">Understand</h3><p data-i18n="step1Text">We map the problem, users, current process and what success looks like.</p></article>
-        <article><span>02</span><h3 data-i18n="step2">Design</h3><p data-i18n="step2Text">I turn the workflow into a simple interface and define the technical architecture.</p></article>
-        <article><span>03</span><h3 data-i18n="step3">Build</h3><p data-i18n="step3Text">Development, database, permissions, integrations, responsiveness and testing.</p></article>
-        <article><span>04</span><h3 data-i18n="step4">Launch & evolve</h3><p data-i18n="step4Text">Production deployment, validation, support and continuous improvements when needed.</p></article>
+    </section>
+
+    <section class="credibility section-reveal" id="stack" aria-label="Capabilities">
+      <span data-i18n="credibility">From idea to production</span>
+      <div class="tech-strip">
+        <b>Next.js</b><b>React</b><b>TypeScript</b><b>Supabase</b><b>PostgreSQL</b><b>Vercel</b><b>APIs</b>
       </div>
     </section>
 
