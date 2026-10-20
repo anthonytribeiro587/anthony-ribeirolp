@@ -20,6 +20,7 @@
   <link rel="alternate" hreflang="it" href="https://anthonyribeiro.dev/it" />
   <link rel="alternate" hreflang="nl" href="https://anthonyribeiro.dev/nl" />
   <link rel="alternate" hreflang="x-default" href="https://anthonyribeiro.dev/en" />
+  <link rel="preload" as="image" href="/assets/hero-anthony.webp" type="image/webp" />
   <link rel="stylesheet" href="/style.css" />
 </head>
 <body>
@@ -58,65 +59,40 @@
   </header>
 
   <main id="home">
-    <section class="hero section-reveal">
+    <section class="hero hero-redesign section-reveal">
       <div class="hero-copy">
         <div class="availability">
           <i></i>
-          <span data-i18n="availability">Available for remote projects worldwide</span>
+          <span data-i18n="availability">Disponível para projetos remotos</span>
         </div>
-
-        <p class="eyebrow" data-i18n="eyebrow">CUSTOM SOFTWARE · AUTOMATION · DIGITAL PRODUCTS</p>
-        <h1 data-i18n="heroTitle">Software built around your business. Not the other way around.</h1>
-        <p class="hero-subtitle" data-i18n="heroSubtitle">I design and build custom web systems, dashboards, CRMs, automations and integrations that turn manual processes into simple, scalable operations.</p>
-
+        <p class="eyebrow" data-i18n="eyebrow">SISTEMAS SOB MEDIDA · AUTOMAÇÃO · PRODUTOS DIGITAIS</p>
+        <h1><span data-i18n="heroLead">Sistemas sob medida para</span> <span class="hero-gradient" data-i18n="heroHighlight">o seu negócio.</span></h1>
+        <p class="hero-subtitle" data-i18n="heroSubtitle">Desenvolvo sistemas web personalizados, dashboards, CRMs, automações e integrações que transformam processos manuais em operações simples e escaláveis.</p>
         <div class="hero-actions">
-          <a class="btn btn-primary" href="#contact" data-i18n="heroCta">Tell me about your project</a>
+          <a class="btn btn-primary" href="#contact" data-i18n="heroCta">Conte sobre seu projeto</a>
           <a class="btn btn-secondary" href="#work" data-i18n="heroSecondary">Explorar possibilidades</a>
         </div>
-
         <div class="global-line">
-          <span>🌍 <b data-i18n="remote">Remote worldwide</b></span>
+          <span>🌍 <b data-i18n="remote">Atendimento global</b></span>
           <span>EUR · USD · BRL</span>
           <span data-i18n="b2b">Freelance & B2B</span>
         </div>
       </div>
 
-      <div class="hero-product" aria-label="Product interface preview">
-        <div class="product-window">
-          <div class="window-bar">
-            <span class="window-dots"><i></i><i></i><i></i></span>
-            <span class="window-url">UI CONCEPT · WORKSPACE</span>
-          </div>
-          <div class="product-shell">
-            <aside class="product-sidebar">
-              <span class="mini-logo">AR</span>
-              <i class="active"></i><i></i><i></i><i></i><i></i>
-            </aside>
-            <div class="product-main">
-              <div class="product-top">
-                <div><small data-i18n="mockWorkspace">BUSINESS WORKSPACE</small><strong data-i18n="mockTitle">Operations overview</strong></div>
-                <span class="live" data-i18n="mockLabel">CONCEPT</span>
-              </div>
-              <div class="metric-grid">
-                <article><small data-i18n="mockClients">Clients</small><strong>CRM</strong><em>● ● ●</em></article>
-                <article><small data-i18n="mockAutomations">Automations</small><strong>API</strong><em>● ● ●</em></article>
-                <article><small data-i18n="mockSaved">Hours saved</small><strong>BI</strong><em>● ● ●</em></article>
-              </div>
-              <div class="chart-card">
-                <div class="chart-head"><span data-i18n="mockPerformance">Performance</span><small data-i18n="mockLastMonths">Concept preview</small></div>
-                <div class="chart-bars"><i style="height:32%"></i><i style="height:46%"></i><i style="height:41%"></i><i style="height:61%"></i><i style="height:70%"></i><i style="height:88%"></i><i style="height:96%"></i></div>
-              </div>
-              <div class="activity-card">
-                <span class="activity-icon">↗</span>
-                <div><strong data-i18n="mockAutomationTitle">Automation completed</strong><small data-i18n="mockAutomationText">Lead qualified and sent to CRM</small></div>
-                <em data-i18n="mockNow">now</em>
-              </div>
-            </div>
-          </div>
+      <div class="hero-product hero-portrait-composition" aria-label="Anthony Ribeiro e exemplos visuais de interfaces digitais">
+        <div class="portrait-aura" aria-hidden="true"></div>
+        <div class="hero-ui-card hero-ui-back" aria-hidden="true">
+          <div class="hero-ui-top"><span class="hero-ui-symbol">◈</span><span>WORKSPACE</span><span class="hero-ui-status"></span></div>
+          <div class="hero-ui-lines"><i></i><i></i><i></i></div>
+          <div class="hero-ui-chart"><i></i><i></i><i></i><i></i><i></i></div>
         </div>
-
-        <div class="float-card float-a"><span>⚡</span><div><small data-i18n="floatAutomation">Automation</small><strong data-i18n="floatRunning">Running</strong></div></div>
-        <div class="float-card float-b"><span>✓</span><div><small data-i18n="floatDeploy">Deployment</small><strong data-i18n="mockDeployStatus">Ready</strong></div></div>
+        <img class="hero-portrait" src="/assets/hero-anthony.webp" alt="Retrato artístico de Anthony Ribeiro com iluminação azul" width="250" height="196" fetchpriority="high" decoding="async" />
+        <div class="hero-ui-card hero-ui-front" aria-hidden="true">
+          <div class="hero-ui-top"><span class="hero-ui-symbol">⌘</span><span data-i18n="mockPerformance">Desempenho</span><span class="hero-ui-status"></span></div>
+          <div class="hero-ui-chart"><i></i><i></i><i></i><i></i><i></i><i></i></div>
+          <span class="hero-ui-caption" data-i18n="mockLastMonths">Prévia ilustrativa</span>
+        </div>
+        <div class="hero-ui-note"><span class="hero-note-dot"></span><span data-i18n="heroVisualNote">Conceito visual · software sob medida</span></div>
       </div>
     </section>
 
