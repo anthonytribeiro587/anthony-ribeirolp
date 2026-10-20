@@ -123,6 +123,123 @@ translations.nl = {...translations.en,
   brandRole:"Software & Automatisering",navServices:"Diensten",navWork:"Projecten",navProcess:"Proces",navContact:"Contact",startProject:"Start een project",availability:"Beschikbaar voor remote projecten wereldwijd",eyebrow:"MAATWERKSOFTWARE · AUTOMATISERING · DIGITALE PRODUCTEN",heroTitle:"Software gebouwd rond uw bedrijf. Niet andersom.",heroSubtitle:"Ik ontwerp en bouw maatwerk websystemen, dashboards, CRM's, automatiseringen en integraties die handmatige processen omzetten in eenvoudige, schaalbare operaties.",heroCta:"Vertel over uw project",heroSecondary:"Bekijk projecten",remote:"Wereldwijd remote",servicesEyebrow:"WAT IK BOUW",servicesTitle:"Digitale tools die frictie uit uw operatie halen.",workEyebrow:"GESELECTEERD WERK",workTitle:"Echte producten. Echte operaties.",processEyebrow:"HOE HET WERKT",processTitle:"Een duidelijk pad van probleem naar productie.",contactEyebrow:"LATEN WE BOUWEN",contactTitle:"Een proces dat eenvoudiger zou moeten zijn?",fieldName:"Uw naam",fieldCompany:"Bedrijf / project",fieldCountry:"Land",fieldNeed:"Wat heeft u nodig?",fieldMessage:"Vertel kort over de uitdaging",sendWhatsapp:"Verder via WhatsApp",footerRole:"Maatwerksoftware & Automatisering",metaTitle:"Anthony Ribeiro | Software & Automatisering",metaDescription:"Maatwerk websystemen, dashboards, CRM, automatiseringen en integraties voor bedrijven wereldwijd.",whatsappIntro:"Hallo Anthony! Ik heb je gevonden via anthonyribeiro.dev en wil graag een project bespreken."
 };
 
+const solutionCopy = {
+  en: {
+    navWork:"Solutions", heroSecondary:"Explore possibilities", workEyebrow:"WHAT I CAN BUILD", workTitle:"Your next business solution starts with an idea.", workText:"Explore conceptual interface previews to picture what we could build. Every solution is tailored to how your team works.",
+    conceptLabel:"INTERFACE CONCEPT", conceptNote:"All screens are illustrative concepts — not examples of completed client projects.", exploreSolution:"Explore solution", dialogEyebrow:"SOLUTION IDEA · VISUAL PREVIEW", dialogIncludes:"What this could include", dialogCta:"Let's discuss a solution like this", dialogNote:"This is an illustrative interface. Your project is designed around your own requirements.", dialogClose:"Close",
+    mockLabel:"CONCEPT",mockDeployStatus:"Preview",mockClients:"Customer area",mockAutomations:"Connections",mockSaved:"Insights",mockLastMonths:"Illustrative view",
+    solutions:{
+      crm:["CRM & customer management","Keep contacts, sales opportunities, support and tasks in one place.",["Contact history and customer profiles","Visual sales pipeline and team tasks","Roles, alerts and activity reports"]],
+      data:["Dashboards & financial tools","Turn scattered information into clear dashboards, filters and better decisions.",["Interactive indicators and filters","Financial and operational views","Data imports, reports and permissions"]],
+      shop:["Stores & order portals","Sell online, organize orders and give customers a simple experience.",["Catalog, quotes and checkout","Order statuses and customer portal","Payments, delivery and notifications"]],
+      auto:["Automation & integrations","Connect services, eliminate manual tasks and keep track of each step.",["APIs and webhook workflows","Automated reminders and notifications","Error monitoring and process history"]],
+      field:["Field operations & routes","Organize visits, destinations, tasks and teams working in the field.",["Maps, stops and route planning","Mobile checklists and attachments","Team progress and operational reports"]],
+      saas:["Custom apps & SaaS","Turn an idea into a product with logins, subscriptions, data and administration.",["Secure accounts and permission levels","Subscriptions, billing and tenant separation","Admin portal, analytics and integrations"]]
+    }
+  },
+  "pt-br": {
+    navWork:"Soluções",heroSecondary:"Explorar possibilidades",workEyebrow:"O QUE POSSO CRIAR",workTitle:"Ideias que podem virar a solução da sua empresa.",workText:"Explore interfaces conceituais para visualizar o que podemos construir. Cada solução é pensada para os processos da sua equipe.",
+    conceptLabel:"CONCEITO DE INTERFACE",conceptNote:"Todas as telas são conceitos ilustrativos — não são trabalhos apresentados como projetos entregues a clientes.",exploreSolution:"Explorar solução",dialogEyebrow:"IDEIA DE SOLUÇÃO · PRÉVIA VISUAL",dialogIncludes:"O que essa solução pode incluir",dialogCta:"Quero conversar sobre algo assim",dialogNote:"Esta é uma interface ilustrativa. O projeto é adaptado às necessidades da sua empresa.",dialogClose:"Fechar",
+    mockLabel:"CONCEITO",mockDeployStatus:"Prévia",mockClients:"Clientes",mockAutomations:"Integrações",mockSaved:"Indicadores",mockLastMonths:"Visão ilustrativa",
+    solutions:{
+      crm:["CRM e gestão de clientes","Centralize contatos, negociações, atendimento e tarefas em um só lugar.",["Cadastro e histórico de clientes","Funil comercial e tarefas da equipe","Permissões, alertas e relatórios"]],
+      data:["Dashboards e financeiro","Transforme informações soltas em painéis claros, filtros e decisões melhores.",["Indicadores e filtros interativos","Visões financeiras e operacionais","Importação de dados, relatórios e permissões"]],
+      shop:["Lojas e portais de pedidos","Venda, organize pedidos e ofereça uma experiência simples para seus clientes.",["Catálogo, orçamentos e checkout","Acompanhamento de pedidos e portal do cliente","Pagamentos, entregas e notificações"]],
+      auto:["Automações e integrações","Conecte sistemas, elimine tarefas manuais e acompanhe cada etapa do fluxo.",["Integrações por APIs e webhooks","Lembretes e mensagens automatizadas","Monitoramento de erros e histórico do processo"]],
+      field:["Operação externa e rotas","Organize visitas, destinos, atividades e equipes em campo.",["Mapas, paradas e planejamento de rotas","Checklists e anexos pelo celular","Acompanhamento das equipes e relatórios"]],
+      saas:["Aplicativos e SaaS sob medida","Tire uma ideia do papel com login, assinaturas, banco de dados e painel de gestão.",["Login seguro e níveis de acesso","Assinaturas, cobranças e isolamento de contas","Painel administrativo, métricas e integrações"]]
+    }
+  },
+  "pt-pt": {
+    navWork:"Soluções",heroSecondary:"Explorar possibilidades",workEyebrow:"O QUE POSSO CRIAR",workTitle:"Ideias que podem transformar o seu negócio.",workText:"Explore interfaces conceptuais para imaginar o que podemos construir. Cada solução adapta-se aos processos da sua equipa.",
+    conceptLabel:"CONCEITO DE INTERFACE",conceptNote:"Todas as interfaces são conceitos ilustrativos — não representam projetos entregues a clientes.",exploreSolution:"Explorar solução",dialogEyebrow:"IDEIA DE SOLUÇÃO · PRÉ-VISUALIZAÇÃO",dialogIncludes:"O que esta solução pode incluir",dialogCta:"Quero conversar sobre esta solução",dialogNote:"A interface é ilustrativa. O projeto adapta-se às necessidades da sua empresa.",dialogClose:"Fechar",
+    mockLabel:"CONCEITO",mockDeployStatus:"Prévia",mockClients:"Clientes",mockAutomations:"Integrações",mockSaved:"Indicadores",mockLastMonths:"Pré-visualização",
+    solutions:{
+      crm:["CRM e gestão de clientes","Centralize contactos, oportunidades comerciais, atendimento e tarefas.",["Fichas e histórico de clientes","Funil comercial e tarefas da equipa","Permissões, alertas e relatórios"]],
+      data:["Dashboards e finanças","Transforme dados dispersos em painéis claros para melhores decisões.",["Indicadores e filtros interativos","Painéis financeiros e operacionais","Importações, relatórios e permissões"]],
+      shop:["Lojas e portais de encomendas","Venda online, organize encomendas e facilite a experiência dos clientes.",["Catálogo, orçamentos e checkout","Estados das encomendas e portal de cliente","Pagamentos, entregas e notificações"]],
+      auto:["Automações e integrações","Ligue sistemas, elimine tarefas manuais e acompanhe cada fase.",["Integrações por APIs e webhooks","Lembretes e notificações automáticas","Monitorização de falhas e histórico"]],
+      field:["Operações no terreno e rotas","Organize visitas, destinos, atividades e equipas no terreno.",["Mapas e planeamento de rotas","Checklists e anexos no telemóvel","Acompanhamento e relatórios da equipa"]],
+      saas:["Aplicações e SaaS à medida","Transforme uma ideia num produto com login, subscrições e gestão.",["Contas seguras e níveis de acesso","Subscrições, faturação e isolamento de dados","Painel administrativo e integrações"]]
+    }
+  },
+  es: {
+    navWork:"Soluciones",heroSecondary:"Explorar posibilidades",workEyebrow:"LO QUE PUEDO CREAR",workTitle:"Ideas que pueden convertirse en la solución de tu negocio.",workText:"Explora interfaces conceptuales para imaginar lo que podemos construir. Cada solución se adapta al flujo real de tu equipo.",
+    conceptLabel:"CONCEPTO DE INTERFAZ",conceptNote:"Las pantallas son conceptos ilustrativos, no proyectos presentados como trabajos entregados.",exploreSolution:"Explorar solución",dialogEyebrow:"IDEA DE SOLUCIÓN · VISTA PREVIA",dialogIncludes:"Qué puede incluir",dialogCta:"Quiero hablar de una solución así",dialogNote:"La interfaz es ilustrativa. El proyecto se adapta a tus necesidades.",dialogClose:"Cerrar",
+    mockLabel:"CONCEPTO",mockDeployStatus:"Vista previa",mockClients:"Clientes",mockAutomations:"Integraciones",mockSaved:"Indicadores",mockLastMonths:"Vista ilustrativa",
+    solutions:{
+      crm:["CRM y gestión de clientes","Reúne contactos, oportunidades, atención y tareas en un solo lugar.",["Historial y perfiles de clientes","Embudo de ventas y tareas","Permisos, alertas e informes"]],
+      data:["Dashboards y finanzas","Convierte datos dispersos en paneles claros para decidir mejor.",["Indicadores y filtros interactivos","Vistas financieras y operativas","Importaciones, informes y permisos"]],
+      shop:["Tiendas y portales de pedidos","Vende online, organiza pedidos y facilita la experiencia de tus clientes.",["Catálogo, presupuestos y checkout","Seguimiento de pedidos y portal de clientes","Pagos, entregas y notificaciones"]],
+      auto:["Automatización e integraciones","Conecta herramientas y elimina tareas manuales de tus procesos.",["Integraciones mediante APIs y webhooks","Recordatorios y mensajes automáticos","Seguimiento de errores e historial"]],
+      field:["Operaciones de campo y rutas","Organiza visitas, destinos, tareas y equipos en movimiento.",["Mapas y planificación de rutas","Listas de control y adjuntos móviles","Seguimiento de equipos e informes"]],
+      saas:["Aplicaciones y SaaS a medida","Convierte una idea en un producto con usuarios, suscripciones y datos.",["Cuentas seguras y niveles de acceso","Suscripciones, pagos y separación de cuentas","Panel de administración e integraciones"]]
+    }
+  },
+  fr: {
+    navWork:"Solutions",heroSecondary:"Explorer les possibilités",workEyebrow:"CE QUE JE PEUX CRÉER",workTitle:"Des idées qui peuvent transformer votre activité.",workText:"Explorez des aperçus d'interfaces conceptuelles pour imaginer votre futur outil, adapté à vos processus.",
+    conceptLabel:"CONCEPT D'INTERFACE",conceptNote:"Ces interfaces sont des concepts illustratifs, et non des projets clients réalisés.",exploreSolution:"Explorer la solution",dialogEyebrow:"IDÉE DE SOLUTION · APERÇU VISUEL",dialogIncludes:"Fonctionnalités possibles",dialogCta:"Parlons d'une solution similaire",dialogNote:"L'interface est illustrative. Le projet sera adapté à vos besoins.",dialogClose:"Fermer",
+    mockLabel:"CONCEPT",mockDeployStatus:"Aperçu",mockClients:"Clients",mockAutomations:"Intégrations",mockSaved:"Indicateurs",mockLastMonths:"Vue illustrative",
+    solutions:{
+      crm:["CRM et gestion clients","Centralisez contacts, opportunités, assistance et tâches.",["Fiches et historique clients","Pipeline commercial et tâches d'équipe","Droits d'accès, alertes et rapports"]],
+      data:["Tableaux de bord et finances","Transformez vos données en indicateurs lisibles pour mieux décider.",["Indicateurs et filtres interactifs","Vues financières et opérationnelles","Importations, rapports et droits d'accès"]],
+      shop:["Boutiques et portails de commandes","Vendez, gérez les commandes et simplifiez l'expérience client.",["Catalogue, devis et paiement","Suivi des commandes et portail client","Paiements, livraison et notifications"]],
+      auto:["Automatisation et intégrations","Reliez vos outils et supprimez les tâches manuelles.",["APIs et webhooks","Rappels et notifications automatiques","Suivi des erreurs et historique"]],
+      field:["Terrain et itinéraires","Organisez visites, destinations, activités et équipes terrain.",["Cartes et planification d'itinéraires","Listes de contrôle et pièces jointes mobiles","Suivi des équipes et rapports"]],
+      saas:["Applications et SaaS sur mesure","Transformez une idée en produit avec comptes, abonnements et données.",["Comptes sécurisés et niveaux d'accès","Abonnements, facturation et séparation des comptes","Administration et intégrations"]]
+    }
+  },
+  de: {
+    navWork:"Lösungen",heroSecondary:"Möglichkeiten entdecken",workEyebrow:"WAS ICH ENTWICKELN KANN",workTitle:"Aus Ideen werden Lösungen für Ihr Unternehmen.",workText:"Entdecken Sie konzeptionelle UI-Vorschauen. Jede Lösung wird an die tatsächlichen Abläufe Ihres Teams angepasst.",
+    conceptLabel:"UI-KONZEPT",conceptNote:"Diese Ansichten sind illustrative Konzepte, keine Referenzen abgeschlossener Kundenprojekte.",exploreSolution:"Lösung ansehen",dialogEyebrow:"LÖSUNGSIDEE · VISUELLE VORSCHAU",dialogIncludes:"Mögliche Funktionen",dialogCta:"Ähnliche Lösung anfragen",dialogNote:"Die Oberfläche ist beispielhaft. Das Projekt wird auf Ihre Anforderungen zugeschnitten.",dialogClose:"Schließen",
+    mockLabel:"KONZEPT",mockDeployStatus:"Vorschau",mockClients:"Kunden",mockAutomations:"Schnittstellen",mockSaved:"Kennzahlen",mockLastMonths:"Beispielansicht",
+    solutions:{
+      crm:["CRM und Kundenmanagement","Kontakte, Verkaufschancen, Betreuung und Aufgaben zentral verwalten.",["Kundenprofile und Verlauf","Vertriebspipeline und Teamaufgaben","Berechtigungen, Warnungen und Berichte"]],
+      data:["Dashboards und Finanzen","Verstreute Informationen in übersichtliche Kennzahlen verwandeln.",["Interaktive Kennzahlen und Filter","Finanz- und Betriebsansichten","Datenimporte, Berichte und Berechtigungen"]],
+      shop:["Shops und Bestellportale","Online verkaufen, Bestellungen organisieren und Kunden unterstützen.",["Katalog, Angebote und Checkout","Bestellverfolgung und Kundenportal","Zahlungen, Versand und Benachrichtigungen"]],
+      auto:["Automatisierung und Integrationen","Systeme verbinden und manuelle Schritte reduzieren.",["API- und Webhook-Workflows","Automatische Erinnerungen und Nachrichten","Fehlerüberwachung und Prozessverlauf"]],
+      field:["Außendienst und Routen","Besuche, Ziele, Aufgaben und Außendienstteams koordinieren.",["Karten und Routenplanung","Mobile Checklisten und Anhänge","Teamfortschritt und Berichte"]],
+      saas:["Individuelle Apps und SaaS","Ideen als Produkt mit Login, Abonnements und Verwaltung umsetzen.",["Sichere Konten und Rollen","Abos, Abrechnung und getrennte Mandanten","Administration, Analysen und Integrationen"]]
+    }
+  },
+  it: {
+    navWork:"Soluzioni",heroSecondary:"Esplora le possibilità",workEyebrow:"COSA POSSO REALIZZARE",workTitle:"Idee che possono diventare la soluzione per la tua azienda.",workText:"Esplora interfacce concettuali per immaginare cosa possiamo costruire, su misura per i tuoi processi.",
+    conceptLabel:"CONCEPT UI",conceptNote:"Le schermate sono concept illustrativi, non progetti realizzati per clienti.",exploreSolution:"Esplora soluzione",dialogEyebrow:"IDEA DI SOLUZIONE · ANTEPRIMA",dialogIncludes:"Cosa può includere",dialogCta:"Parliamo di una soluzione simile",dialogNote:"L'interfaccia è illustrativa. Il progetto è personalizzato per le tue esigenze.",dialogClose:"Chiudi",
+    mockLabel:"CONCEPT",mockDeployStatus:"Anteprima",mockClients:"Clienti",mockAutomations:"Integrazioni",mockSaved:"Indicatori",mockLastMonths:"Vista illustrativa",
+    solutions:{
+      crm:["CRM e gestione clienti","Organizza contatti, opportunità, assistenza e attività in un unico posto.",["Profili e cronologia clienti","Pipeline commerciale e attività del team","Permessi, avvisi e report"]],
+      data:["Dashboard e finanza","Trasforma dati sparsi in pannelli chiari per decidere meglio.",["Indicatori e filtri interattivi","Viste finanziarie e operative","Importazioni, report e permessi"]],
+      shop:["Negozi e portali ordini","Vendi online e organizza ordini con un'esperienza semplice per i clienti.",["Catalogo, preventivi e checkout","Tracciamento ordini e portale clienti","Pagamenti, spedizioni e notifiche"]],
+      auto:["Automazioni e integrazioni","Collega sistemi ed elimina le attività ripetitive.",["Flussi API e webhook","Promemoria e messaggi automatici","Monitoraggio errori e cronologia"]],
+      field:["Operazioni esterne e percorsi","Organizza visite, destinazioni e squadre sul campo.",["Mappe e pianificazione percorsi","Checklist e allegati da mobile","Monitoraggio del team e report"]],
+      saas:["Applicazioni e SaaS su misura","Trasforma un'idea in un prodotto con accessi, abbonamenti e gestione.",["Account sicuri e ruoli","Abbonamenti, fatturazione e separazione dei dati","Pannello amministrativo e integrazioni"]]
+    }
+  },
+  nl: {
+    navWork:"Oplossingen",heroSecondary:"Mogelijkheden ontdekken",workEyebrow:"WAT IK KAN BOUWEN",workTitle:"Van een idee naar een oplossing voor uw bedrijf.",workText:"Ontdek conceptuele interfaces om te zien wat we op maat van uw werkprocessen kunnen bouwen.",
+    conceptLabel:"INTERFACECONCEPT",conceptNote:"Deze schermen zijn illustratieve concepten, geen voorbeelden van opgeleverde klantprojecten.",exploreSolution:"Oplossing verkennen",dialogEyebrow:"OPLOSSINGSIDEE · VISUELE PREVIEW",dialogIncludes:"Mogelijke functies",dialogCta:"Een vergelijkbare oplossing bespreken",dialogNote:"De interface is illustratief. Uw project wordt op maat ontworpen.",dialogClose:"Sluiten",
+    mockLabel:"CONCEPT",mockDeployStatus:"Preview",mockClients:"Klanten",mockAutomations:"Koppelingen",mockSaved:"Inzichten",mockLastMonths:"Voorbeeldweergave",
+    solutions:{
+      crm:["CRM en klantbeheer","Beheer contacten, verkoopkansen, service en taken centraal.",["Klantprofielen en historie","Verkooppijplijn en teamtaken","Rollen, meldingen en rapporten"]],
+      data:["Dashboards en financiën","Zet losse informatie om in duidelijke inzichten en rapporten.",["Interactieve KPI's en filters","Financiële en operationele overzichten","Data-import, rapporten en rechten"]],
+      shop:["Webshops en bestelportalen","Verkoop online en beheer bestellingen met een eenvoudige klantervaring.",["Catalogus, offertes en checkout","Bestelstatus en klantenportaal","Betalingen, levering en meldingen"]],
+      auto:["Automatisering en integraties","Koppel systemen en verminder handmatige handelingen.",["API- en webhookprocessen","Automatische herinneringen en berichten","Foutbewaking en procesgeschiedenis"]],
+      field:["Buitendienst en routes","Plan bezoeken, locaties, taken en teams onderweg.",["Kaarten en routeplanning","Mobiele checklists en bijlagen","Teamvoortgang en rapportages"]],
+      saas:["Maatwerkapps en SaaS","Bouw een idee uit tot een product met accounts, abonnementen en beheer.",["Veilige accounts en rollen","Abonnementen, facturatie en gescheiden omgevingen","Beheerpaneel en integraties"]]
+    }
+  }
+};
+
+for (const [locale, copy] of Object.entries(solutionCopy)) {
+  const {solutions, ...strings} = copy;
+  Object.assign(translations[locale], strings);
+  for (const [key, [title, desc]] of Object.entries(solutions)) {
+    const capital = key[0].toUpperCase() + key.slice(1);
+    translations[locale]["sol"+capital+"Title"] = title;
+    translations[locale]["sol"+capital+"Text"] = desc;
+  }
+}
+
 const localeAliases = {
   "pt":"pt-br","pt-BR":"pt-br","pt-PT":"pt-pt",
   "en":"en","en-US":"en","en-GB":"en","en-CA":"en","en-AU":"en",
@@ -137,10 +254,10 @@ function getPathLocale(){
   return translations[segment] ? segment : null;
 }
 function detectLocale(){
-  const saved=localStorage.getItem("ar-locale");
-  if(saved && translations[saved]) return saved;
   const pathLocale=getPathLocale();
   if(pathLocale) return pathLocale;
+  const saved=localStorage.getItem("ar-locale");
+  if(saved && translations[saved]) return saved;
   const langs=navigator.languages || [navigator.language || "en"];
   for(const lang of langs){
     if(localeAliases[lang]) return localeAliases[lang];
@@ -203,6 +320,50 @@ navLinks.forEach(link=>link.addEventListener("click",()=>{
   document.body.classList.remove("menu-open");
   if(menuButton) menuButton.textContent=translations[currentLocale].menu || "Menu";
 }));
+
+const solutionDialog=document.getElementById("solutionDialog");
+const solutionPreview=document.getElementById("dialogPreview");
+const dialogTitle=document.getElementById("solutionDialogTitle");
+const dialogDescription=document.getElementById("dialogDescription");
+const dialogFeatures=document.getElementById("dialogFeatures");
+let activeSolution=null;
+let solutionTrigger=null;
+
+document.querySelectorAll("[data-open-solution]").forEach(button=>{
+  button.addEventListener("click",()=>{
+    const key=button.dataset.openSolution;
+    const spec=(solutionCopy[currentLocale] || solutionCopy.en).solutions[key];
+    const card=button.closest(".showcase-card");
+    const visual=card?.querySelector(".showcase-preview");
+    if(!spec || !visual || !solutionDialog || !solutionPreview) return;
+    activeSolution=key;
+    solutionTrigger=button;
+    dialogTitle.textContent=spec[0];
+    dialogDescription.textContent=spec[1];
+    dialogFeatures.replaceChildren(...spec[2].map(feature=>{
+      const li=document.createElement("li");li.textContent=feature;return li;
+    }));
+    solutionPreview.replaceChildren(visual.cloneNode(true));
+    solutionDialog.showModal();
+    document.getElementById("dialogClose")?.focus();
+  });
+});
+document.getElementById("dialogClose")?.addEventListener("click",()=>solutionDialog?.close());
+solutionDialog?.addEventListener("click",event=>{
+  if(event.target===solutionDialog) solutionDialog.close();
+});
+solutionDialog?.addEventListener("close",()=>{
+  solutionPreview?.replaceChildren();
+  solutionTrigger?.focus();
+});
+document.getElementById("dialogCta")?.addEventListener("click",()=>{
+  const needBySolution={crm:"system",data:"dashboard",shop:"system",auto:"automation",field:"system",saas:"mvp"};
+  const need=document.getElementById("leadNeed");
+  if(need && activeSolution) need.value=needBySolution[activeSolution] || "other";
+  solutionDialog?.close();
+  document.getElementById("contact")?.scrollIntoView({behavior:"smooth",block:"start"});
+  requestAnimationFrame(()=>document.getElementById("leadName")?.focus({preventScroll:true}));
+});
 
 const revealObserver=new IntersectionObserver(entries=>{
   entries.forEach(entry=>{
